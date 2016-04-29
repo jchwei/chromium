@@ -13,9 +13,9 @@ Download https://src.chromium.org/svn/trunk/tools/depot_tools.zip and extract it
     - google_api_key='no' google_default_client_id='no' google_default_client_secret='no'
 2. with your API keys set:
     - google_api_key='<your_api_key>' google_default_client_id='<your_client_id>' google_default_client_secret='<your_client_secret>'
-    - more info: https://www.chromium.org/developers/how-tos/api-keys
+    - *more info: https://www.chromium.org/developers/how-tos/api-keys*
 3. with google API keys set use_official_google_api_keys=1 and remove parameters above
-    - IMPORTANT: you need google API keys in D:\depot_tools\src\google_apis\internal\google_chrome_api_keys.h
+    - *IMPORTANT: you need google API keys in D:\depot_tools\src\google_apis\internal\google_chrome_api_keys.h*
  
 ##### let's try to build the chromium without a google services:
 - run CMD.exe
@@ -29,7 +29,7 @@ set GYP_MSVS_VERSION=2015
 gclient
 fetch --nohooks chromium --nosvn=True
 ```
-it will be downloaded ~20GB
+    - *it will be downloaded ~20GB*
 ```batch
 cd /D D:\depot_tools\src
 git checkout lkgr
