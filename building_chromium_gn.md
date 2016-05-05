@@ -6,7 +6,7 @@
     - free space ~30GB (sources ~20GB, each build (release/debug x32/x64) ~10GB)
     - MS Visual Studio 2015 with Update 2 (custom install, check "Visual C++" and "Win10 SDK")
  
-Download https://src.chromium.org/svn/trunk/tools/depot_tools.zip and extract it (i.e. D:\depot_tools)
+Download https://storage.googleapis.com/chrome-infra/depot_tools.zip and extract it (i.e. D:\depot_tools)
  
 ##### you can build with API keys or without:
 1. without keys you must use these arguments:
