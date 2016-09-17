@@ -1,10 +1,10 @@
-## Building Chromium x64 with Visual Studio 2015 Update 2
+## Building Chromium x64 with Visual Studio 2015 Update 3
  
 #### Requirements: 
     - Windows x64
     - 8GB RAM or more
     - free space ~30GB (sources ~20GB, each build (release/debug x32/x64) ~10GB)
-    - MS Visual Studio 2015 with Update 2 (custom install, check "Visual C++" and "Win10 SDK")
+    - MS Visual Studio 2015 with Update 3 (custom install, check "Visual C++" and "Win10 SDK")
  
 Download https://storage.googleapis.com/chrome-infra/depot_tools.zip and extract it (i.e. D:\depot_tools)
  
