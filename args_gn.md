@@ -65,3 +65,5 @@ chrome_pgo_phase = 1
 full_wpo_on_official = true
 is_official_build = true
 ```
+
+##Attention, this is PGO build, it's require 150GB of free space per build!
