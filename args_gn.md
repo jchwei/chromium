@@ -1,6 +1,5 @@
 #NOSYNC
 ```python
-current_cpu = "x64"
 enable_ac3_eac3_audio_demuxing = true
 enable_google_now = false
 enable_hevc_demuxing = true
@@ -12,12 +11,10 @@ exclude_unwind_tables = true
 ffmpeg_branding = "Chrome"
 is_component_build = false
 is_debug = false
-is_win_fastlink = true
 proprietary_codecs = true
 remove_webcore_debug_symbols = true
 symbol_level = 0
 target_cpu = "x64"
-visual_studio_version = "2015"
 enable_remoting = false
 enable_webrtc = false
 google_api_key = "no"
@@ -27,14 +24,13 @@ rtc_use_h264 = false
 rtc_use_lto = false
 use_official_google_api_keys = false
 use_openh264 = false
-chrome_pgo_phase = 1
-full_wpo_on_official = true
+chrome_pgo_phase = 0
+full_wpo_on_official = false
 is_official_build = true
 ```
 
 #SYNC
 ```python
-current_cpu = "x64"
 enable_ac3_eac3_audio_demuxing = true
 enable_google_now = false
 enable_hevc_demuxing = true
@@ -46,12 +42,10 @@ exclude_unwind_tables = true
 ffmpeg_branding = "Chrome"
 is_component_build = false
 is_debug = false
-is_win_fastlink = true
 proprietary_codecs = true
 remove_webcore_debug_symbols = true
 symbol_level = 0
 target_cpu = "x64"
-visual_studio_version = "2015"
 enable_hangout_services_extension = true
 enable_webrtc = true
 enable_widevine = true
@@ -59,9 +53,9 @@ rtc_use_h264 = true
 rtc_use_lto = true
 use_official_google_api_keys = true
 use_openh264 = true
-chrome_pgo_phase = 1
-full_wpo_on_official = true
+chrome_pgo_phase = 0
+full_wpo_on_official = false
 is_official_build = true
 ```
 
-##Attention, this is PGO build, it's require 150GB of free space per build!
+##This is WPO build, it's require around 60GB of free space per build!
