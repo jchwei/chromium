@@ -41,6 +41,23 @@ ffmpeg_yasm_sources += [
  - `libavcodec/hevcdec.c` to `libavcodec/autorename_libavcodec_hevcdec.c`
  - `libavformat/hevc.c` to `libavformat/autorename_libavformat_hevc.c`
 
+in the files:
+- **src/third_party/ffmpeg/chromium/config/YOUR_BRAND/win/YOUR_ARCH/config.asm**
+- **src/third_party/ffmpeg/chromium/config/YOUR_BRAND/win/YOUR_ARCH/config.asm**
+
+add or replace some parameters..
+
+add to existing:
+```c
+#define FFMPEG_CONFIGURATION "******** --enable-decoder='hevc' --enable-demuxer='hevc' --enable-parser='hevc'"
+```
+
+replace to:
+```c
+#define CONFIG_HEVC_DECODER 1
+#define CONFIG_HEVC_DEMUXER 1
+#define CONFIG_HEVC_PARSER 1
+```
 
 ### For version v60 and below ###
 
