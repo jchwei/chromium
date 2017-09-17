@@ -42,7 +42,7 @@ ffmpeg_yasm_sources += [
  - `libavformat/hevc.c` to `libavformat/autorename_libavformat_hevc.c`
 
 in the files:
-- **src/third_party/ffmpeg/chromium/config/YOUR_BRAND/win/YOUR_ARCH/config.asm**
+- **src/third_party/ffmpeg/chromium/config/YOUR_BRAND/win/YOUR_ARCH/config.h**
 - **src/third_party/ffmpeg/chromium/config/YOUR_BRAND/win/YOUR_ARCH/config.asm**
 
 add or replace some parameters..
@@ -97,7 +97,7 @@ ffmpeg_yasm_sources += [
 ```
 
 in the files:
-- **src/third_party/ffmpeg/chromium/config/YOUR_BRAND/win/YOUR_ARCH/config.asm**
+- **src/third_party/ffmpeg/chromium/config/YOUR_BRAND/win/YOUR_ARCH/config.h**
 - **src/third_party/ffmpeg/chromium/config/YOUR_BRAND/win/YOUR_ARCH/config.asm**
 
 add or replace some parameters..
