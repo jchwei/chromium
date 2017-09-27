@@ -1,5 +1,5 @@
 ## Build libchromiumcontent library with H265/HEVC for electron in Windows
-> [https://github.com/electron/libchromiumcontent](libchromium) has many useful scripts to generate gn files and ninja build files
+> [libchromiumcontent](https://github.com/electron/libchromiumcontent) has many useful scripts to generate gn files and ninja build files, related issues [buiding with alternative libffmpeg](https://github.com/electron/libchromiumcontent/issues/198)
 
 ### First get the fuck-big code
 > new libchromiumcontent script will sync the whole repo
@@ -7,7 +7,7 @@
 - use agent: for python downing some tools from google
 
 ### OR just get source tarball of some stable version
-> old libchromiumcontent script support download source tarballs from github release [https://gsdview.appspot.com/chromium-browser-official/?marker=chromium-57.0.2987.97.tar.x%40](chromium source tarballs)
+> old libchromiumcontent script support download source tarballs from github release [chromium source tarballs](https://gsdview.appspot.com/chromium-browser-official/?marker=chromium-57.0.2987.97.tar.x%40)
 
 
 ### Build Overview
